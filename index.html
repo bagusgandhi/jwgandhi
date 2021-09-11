@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@1.14.0/dist/full.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body{
+            font-family: 'Baloo 2', cursive;
+        }
+
+    .rotate-45 {
+        --transform-rotate: 45deg;
+        transform: rotate(45deg);
+    }
+
+    .group:hover .group-hover\:flex {
+        display: flex;
+    }
+
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
     <title>rencana redesign</title>
 </head>
 <body class="antialiased" x-data="{ isOpen : false}">
@@ -41,13 +59,14 @@
     
                         <!-- Navbar -->
                         <navbar class="navbar hidden md:block">
-                            <ul class="flex space-x-8 text-sm font-semibold">
-                                <li><a href="#" class="text-white font-bold">Reviews</a></li>
-                                <li><a href="#" class="text-white">People</a></li>
-                                <li><a href="#" class="text-white">Partners</a></li> 
-                                <li><a href="#" class="text-white">Feedback</a></li>
-                                <li><a href="#" class="text-white">Pricing</a></li>
-                                <li><a href="#" class="text-white">Get the App</a></li>
+                            <ul class="flex space-x-8 text-md font-semibold">
+                                <li><a href="#" class="text-white font-bold">Home</a></li>
+                                <li><a href="#" class="text-white">Domain</a></li>
+                                <li><a href="#" class="text-white">Hosting</a></li> 
+                                <li><a href="#" class="text-white">Cloud VPS</a></li>
+                                <li><a href="#" class="text-white">Website Instan</a></li>
+                                <li><a href="#" class="text-white">Promo</a></li>
+                                <li><a href="#" class="text-white p-2 border-2 border-white rounded hover:bg-indigo-600">Login</a></li>
                             </ul>
                         </navbar>
     
@@ -233,10 +252,10 @@
             </div>
         </div><!-- end mobile navbar -->
 
-   <div class="container mx-auto py-20">
-    <div class="grid md:grid-cols-2 gap-6 my-6 xl:px-80  px-8 ">
+   <div class="container mx-auto py-20 ">
+    <div class="grid md:grid-cols-2 gap-6 my-6 mx-auto xl:max-w-3xl px-8 ">
         <div class="bg-indigo-50  px-4 py-4  hover:scale-105 transform duration-150 ease-in-out rounded">
-            <div class="flex">
+            <div class="flex ">
                 <div class="flex-auto pl-4 pr-2 py-4 ">
                     <svg class="h-14 w-24" id="Layer_19" data-name="Layer 19" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><title>domain-murah</title><path d="M180,95a68,68,0,1,0,68,68A68,68,0,0,0,180,95Zm0,112a44,44,0,1,1,44-44A44,44,0,0,1,180,207Z" style="fill:#b0ffd7"/><path d="M179.53,116.64a48.13,48.13,0,1,0,48.13,48.13A48.18,48.18,0,0,0,179.53,116.64Zm0,85.32a37.19,37.19,0,1,1,37.19-37.19A37.23,37.23,0,0,1,179.53,202Z" style="fill:#273a7c"/><path d="M179.53,140.16a5.47,5.47,0,0,0,0,10.94,13.68,13.68,0,0,1,13.67,13.67,5.47,5.47,0,0,0,10.94,0A24.64,24.64,0,0,0,179.53,140.16Z" style="fill:#273a7c"/><path d="M43.71,66A5.47,5.47,0,1,0,34,71L48.72,99.47a5.47,5.47,0,0,0,9.79-.15l8.91-18.55,9.68,18.7a5.46,5.46,0,0,0,4.85,3H82a5.5,5.5,0,0,0,4.85-3.11l13.65-28.43a5.47,5.47,0,0,0-9.86-4.74L81.77,84.71,72.09,66a5.47,5.47,0,0,0-9.79.14L53.39,84.71Z" style="fill:#273a7c"/><path d="M78.9,35.71A5.48,5.48,0,1,0,75,34.11,5.55,5.55,0,0,0,78.9,35.71Z" style="fill:#273a7c"/><path d="M290,118.83V46.64a21.89,21.89,0,0,0-21.87-21.87H101.87a5.47,5.47,0,1,0,0,10.94H268.13a10.94,10.94,0,0,1,10.93,10.93v72.19a11,11,0,0,1-10.93,10.94H241.87l-.46,0A71.51,71.51,0,0,0,203,97.65l8.1-16.88,9.69,18.7a5.46,5.46,0,0,0,4.85,3h.09a5.48,5.48,0,0,0,4.84-3.11L244.2,70.89a5.47,5.47,0,1,0-9.86-4.74l-8.91,18.56L215.75,66a5.47,5.47,0,0,0-9.79.14l-8.91,18.56L187.37,66a5.47,5.47,0,1,0-9.71,5l12.1,23.39a71.23,71.23,0,0,0-29.63,2l12.24-25.48a5.47,5.47,0,0,0-9.86-4.74L153.6,84.71,143.92,66a5.47,5.47,0,0,0-9.79.14l-8.91,18.56L115.54,66a5.47,5.47,0,1,0-9.71,5l14.72,28.44a5.47,5.47,0,0,0,9.79-.15l8.91-18.55,9.68,18.7a5.22,5.22,0,0,0,.57.87,71.62,71.62,0,0,0-31.83,29.43H31.87a11,11,0,0,1-10.93-10.94V46.64A10.94,10.94,0,0,1,31.87,35.71H54.29a5.47,5.47,0,0,0,0-10.94H31.87A21.89,21.89,0,0,0,10,46.64v72.19a21.9,21.9,0,0,0,21.87,21.88h80.77a71.07,71.07,0,0,0,102.3,85.69l43.4,43.41a18.55,18.55,0,0,0,26.23-26.23l-17.06-17.05a5.47,5.47,0,1,0-7.73,7.73l17.05,17.06a7.6,7.6,0,0,1-10.75,10.76l-42-42a71,71,0,0,0,22.32-79.4h21.7A21.9,21.9,0,0,0,290,118.83ZM179.53,224.93a60.16,60.16,0,1,1,60.16-60.16A60.22,60.22,0,0,1,179.53,224.93Z" style="fill:#273a7c"/><path d="M246.81,213.56a5.44,5.44,0,1,0,3.86-1.61A5.47,5.47,0,0,0,246.81,213.56Z" style="fill:#273a7c"/></svg>
                 </div>
@@ -304,68 +323,415 @@
 
    <div class="bg-indigo-50"> 
     <div class="container mx-auto py-20">
-        <div class="xl:px-40 lg:px-10 px-4 pb-6">
+        <div class="mx-auto xl:max-w-6xl px-6 pb-6">
             <p class="lg:text-4xl text-2xl font-bold text-center text-blue-800">Paket Hosting Terbaik Jagoweb</p>
             <p class="pt-4 text-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat animi repudiandae quia impedit nihil dolore aut eligendi porro autem fuga voluptates</p>
         </div>
     
-        <div class="xl:px-80 lg:px-10 px-4">
+        <div class="xl:mx-auto xl:max-w-6xl mx-4">
             <div class="lg:flex lg:bg-white rounded-full lg:shadow-2xl">
-                <div class="flex-1 bg-green-300 px-4 py-4 rounded-full">
-                        <p class="text-white font-medium text-center text-lg">Paket Hosting</p> 
+                <div class="flex-1 bg-green-300 my-4 xl:my-0 px-4 py-4 rounded-full">
+                        <p class="text-white font-medium text-center text-lg">Paket Hosting Murah</p> 
                 </div>
-                <div class="flex-1 px-4 py-4 rounded-full">
-                    <p class="font-medium text-lg text-center text-gray-600">Paket Hosting</p> 
+                <div class="flex-1 bg-white my-4 xl:my-0 px-4 py-4 rounded-full">
+                    <p class="font-medium text-lg text-center text-gray-600">Paket Hosting Unlimited</p> 
                 </div>
-                <div class="flex-1 px-4 py-4 rounded-full">
-                    <p class="font-medium text-lg text-center text-gray-600">Paket Hosting</p> 
+                <div class="flex-1 bg-white my-4 xl:my-0 px-4 py-4 rounded-full">
+                    <p class="font-medium text-lg text-center text-gray-600">Paket Cloud VPS</p> 
                 </div>
-    
+                <div class="flex-1 bg-white my-4 xl:my-0 px-4 py-4 rounded-full">
+                    <p class="font-medium text-lg text-center text-gray-600">Paket Website Instan</p> 
+                </div>
     
             </div>
         </div>
     
         <div class="grid md:grid-cols-4 gap-4 my-20 xl:px-40 lg:px-10 px-8">
-            <div class="bg-white px-6 py-6 hover:scale-105 border-2 hover:border-indigo-600 transform duration-150 ease-in-out rounded-lg">
+            <div class="bg-white z-10 px-6 py-6 border-2 hover:border-indigo-600 border-indigo-200 transform duration-150 ease-in-out rounded-lg">
                     <h3 class=" font-bold text-lg">Paket Mikro</h3>
                     <span class="text-sm">Lorem ipsum dolor sit amet!</span>
                     <p class="text-2xl font-bold py-2">Rp9.000/bln</p>
     
-                    <div class="bg-indigo-600 hover:bg-indigo-700 rounded-full p-2 my-3">
+                    <div class="bg-indigo-600 hover:bg-indigo-700 rounded-full p-2 my-5">
                         <p class="text-center font-bold text-white">Order Sekarang</p> 
                     </div>
-                    <a href=""><p class="text-center text-sm py-6 text-blue-800">Lihat Detail</p></a>
-            </div>
-            <div class="bg-white px-6 py-6 hover:scale-105 border-2 hover:border-indigo-600 transform duration-150 ease-in-out rounded-md">
-                    <h3 class=" font-bold text-lg">Paket Mikro</h3>
-                    <span class="text-sm">Lorem ipsum dolor sit amet!</span>
-                    <p class="text-2xl font-bold py-2">Rp9.000/bln</p>
-    
-                    <div class="bg-indigo-600 hover:bg-indigo-700 rounded-full p-2 my-3">
-                        <p class="text-center font-bold text-white">Order Sekarang</p> 
+                    <div class="bg-indigo-50 rounded p-4"> 
+                        <a href=""><p class="text-md text-indigo-600 border-b-2 border-indigo-200 py-2">Detail Paket</p></a>
+                        <div class="">
+                            <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg> 
+                                    </div>
+                                    <div class="px-2 text-sm">
+                                        <p>Lorem ipsum dolor sit.</p>
+         
+                                    </div>
+                                </div>
+     
+                                <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                                transform translate-y-2 -translate-x-1/4">
+                                    <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                                 </div>
+                              </span>
+                        </div>
+                        <div class="">
+                            <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg> 
+                                    </div>
+                                    <div class="px-2 text-sm">
+                                        <p>Lorem ipsum dolor sit.</p>
+         
+                                    </div>
+                                </div>
+     
+                                <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                                transform translate-y-2 -translate-x-1/4">
+                                    <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                                 </div>
+                              </span>
+                        </div>
+                        <div class="">
+                            <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg> 
+                                    </div>
+                                    <div class="px-2 text-sm">
+                                        <p>Lorem ipsum dolor sit.</p>
+         
+                                    </div>
+                                </div>
+     
+                                <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                                transform translate-y-2 -translate-x-1/4">
+                                    <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                                 </div>
+                              </span>
+                        </div>
+                        <div class="opacity-50">
+                            <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                                <div class="flex items-center">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                        </svg> 
+                                    </div>
+                                    <div class="px-2 text-sm">
+                                        <p>Lorem ipsum dolor sit.</p>
+         
+                                    </div>
+                                </div>
+     
+                                <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                                transform translate-y-2 -translate-x-1/4">
+                                    <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                                 </div>
+                              </span>
+                        </div>
                     </div>
-                    <a href=""><p class="text-center text-sm py-6 text-blue-800">Lihat Detail</p></a>
             </div>
-            <div class="bg-white px-6 py-6 hover:scale-105 border-2 hover:border-indigo-600 transform duration-150 ease-in-out rounded-md">
+            <div class="bg-white z-10 px-6 py-6 border-2 hover:border-indigo-600 border-indigo-200 transform duration-150 ease-in-out rounded-lg">
                 <h3 class=" font-bold text-lg">Paket Mikro</h3>
                 <span class="text-sm">Lorem ipsum dolor sit amet!</span>
                 <p class="text-2xl font-bold py-2">Rp9.000/bln</p>
-    
-                <div class="bg-indigo-600 hover:bg-indigo-700 rounded-full p-2 my-3">
+
+                <div class="bg-indigo-600 hover:bg-indigo-700 rounded-full p-2 my-5">
                     <p class="text-center font-bold text-white">Order Sekarang</p> 
                 </div>
-                <a href=""><p class="text-center text-sm py-6 text-blue-800">Lihat Detail</p></a>
-        </div>
-        <div class="bg-indigo-700 px-6 py-6 hover:scale-105 border-2 hover:border-indigo-600 transform duration-150 ease-in-out rounded-md">
-            <h3 class=" font-bold text-lg text-white">Paket Mikro</h3>
-            <span class="text-sm text-indigo-100">Lorem ipsum dolor sit amet!</span>
-            <p class="text-2xl font-bold py-2 text-white">Rp9.000/bln</p>
-    
-            <div class="bg-green-300 hover:bg-green-400 rounded-full p-2 my-3">
-                <p class="text-center font-bold text-white">Order Sekarang</p> 
+                <div class="bg-indigo-50 rounded p-4"> 
+                    <a href=""><p class="text-md text-indigo-600 border-b-2 border-indigo-200 py-2">Detail Paket</p></a>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="opacity-50">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                </div>
             </div>
-            <a href=""><p class="text-center text-sm py-6 text-blue-800">Lihat Detail</p></a>
-    </div>
+            <div class="bg-white z-10 px-6 py-6 border-2 hover:border-indigo-600 border-indigo-200 transform duration-150 ease-in-out rounded-lg">
+                <h3 class=" font-bold text-lg">Paket Mikro</h3>
+                <span class="text-sm">Lorem ipsum dolor sit amet!</span>
+                <p class="text-2xl font-bold py-2">Rp9.000/bln</p>
+
+                <div class="bg-indigo-600 hover:bg-indigo-700 rounded-full p-2 my-5">
+                    <p class="text-center font-bold text-white">Order Sekarang</p> 
+                </div>
+                <div class="bg-indigo-50 rounded p-4"> 
+                    <a href=""><p class="text-md text-indigo-600 border-b-2 border-indigo-200 py-2">Detail Paket</p></a>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="opacity-50">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white z-10 px-6 py-6 border-2 hover:border-indigo-600 border-indigo-200 transform duration-150 ease-in-out rounded-lg">
+                <h3 class=" font-bold text-lg">Paket Mikro</h3>
+                <span class="text-sm">Lorem ipsum dolor sit amet!</span>
+                <p class="text-2xl font-bold py-2">Rp9.000/bln</p>
+
+                <div class="bg-indigo-600 hover:bg-indigo-700 rounded-full p-2 my-5">
+                    <p class="text-center font-bold text-white">Order Sekarang</p> 
+                </div>
+                <div class="bg-indigo-50 rounded p-4"> 
+                    <a href=""><p class="text-md text-indigo-600 border-b-2 border-indigo-200 py-2">Detail Paket</p></a>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                    <div class="opacity-50">
+                        <span class="ml-2 h-5 w-5 cursor-pointer" x-data="{ tooltip: false }" x-on:mouseover="tooltip = true" x-on:mouseleave="tooltip = false" class="ml-2 h-4 w-4 cursor-pointer">
+                            <div class="flex items-center">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg> 
+                                </div>
+                                <div class="px-2 text-sm">
+                                    <p>Lorem ipsum dolor sit.</p>
+     
+                                </div>
+                            </div>
+ 
+                            <div x-show="tooltip" class="z-10 text-sm text-center text-white absolute bg-black rounded-lg p-2
+                            transform translate-y-2 -translate-x-1/4">
+                                <div class="w-3 h-3 ml-14 -mt-3 rotate-45 bg-black"></div>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam unde
+                             </div>
+                          </span>
+                    </div>
+                </div>
+            </div>
+
         </div>
     
        </div>
@@ -373,7 +739,7 @@
 
    <div class="container mx-auto px-4">
         <div class="lg:flex xl:px-40 py-20">
-            <div class="p-4 lg:w-3/4 w-full">
+            <div class="p-4 lg:w-3/4 w-full order-last ">
                 <h3 class="text-blue-800 lg:text-4xl text-2xl font-bold lg:text-left text-center">Layanan hosting terbaik di indonesia</h3>
                 <p class="py-4 lg:text-left text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus quo officiis quis, minima totam nesciunt</p> 
                 <div class="grid grid-cols-2 gap-4">
@@ -419,7 +785,7 @@
                     </div>
                 </div>
             </div>
-            <div class="p-4 w-1/4 bg-green-300 rounded">
+            <div class="p-4 w-1/4 bg-green-300 rounded order-first  ">
                 
             </div>
         </div>
@@ -443,6 +809,143 @@
             </div>
         </div>
     </div>
+    </div>
+
+    <div class="container mx-auto py-20">
+        <div class="bg-white max-w-6xl mx-auto" x-data="{selected:null}">
+            <ul class="shadow-box">
+                            
+            <li class="relative border border-black-200 my-4 rounded-xl bg-indigo-50 my-4">
+    
+                <button type="button" class="w-full px-8 py-6 text-left" @click="selected !== 1 ? selected = 1 : selected = null">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-xl">
+                            Should I use reCAPTCHA v2 or v3?
+                        </span>
+                        <span class="ico-plus"></span>
+                    </div>
+                </button>
+    
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container1" x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                    <div class="p-6">
+                        <p>reCAPTCHA v2 is not going away! We will continue to fully support and improve security and usability for v2.</p>
+                        <p>reCAPTCHA v3 is intended for power users, site owners that want more data about their traffic, and for use cases in which it is not appropriate to show a challenge to the user.</p>
+                        <p>For example, a registration page might still use reCAPTCHA v2 for a higher-friction challenge, whereas more common actions like sign-in, searches, comments, or voting might use reCAPTCHA v3. To see more details, see the reCAPTCHA v3 developer guide.</p>
+                    </div>
+                </div>
+    
+            </li>
+
+            <li class="relative border border-black-200 my-4 rounded-xl bg-indigo-50 my-4">
+    
+                <button type="button" class="w-full px-8 py-6 text-left" @click="selected !== 2 ? selected = 2 : selected = null">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-xl">
+                            Should I use reCAPTCHA v2 or v3?
+                        </span>
+                        <span class="ico-plus"></span>
+                    </div>
+                </button>
+    
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container2" x-bind:style="selected == 2 ? 'max-height: ' + $refs.container2.scrollHeight + 'px' : ''">
+                    <div class="p-6">
+                        <p>reCAPTCHA v2 is not going away! We will continue to fully support and improve security and usability for v2.</p>
+                        <p>reCAPTCHA v3 is intended for power users, site owners that want more data about their traffic, and for use cases in which it is not appropriate to show a challenge to the user.</p>
+                        <p>For example, a registration page might still use reCAPTCHA v2 for a higher-friction challenge, whereas more common actions like sign-in, searches, comments, or voting might use reCAPTCHA v3. To see more details, see the reCAPTCHA v3 developer guide.</p>
+                    </div>
+                </div>
+    
+            </li>
+
+            <li class="relative border border-black-200 my-4 rounded-xl bg-indigo-50 my-4">
+    
+                <button type="button" class="w-full px-8 py-6 text-left" @click="selected !== 3 ? selected = 3 : selected = null">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-xl">
+                            Should I use reCAPTCHA v2 or v3?
+                        </span>
+                        <span class="ico-plus"></span>
+                    </div>
+                </button>
+    
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container3" x-bind:style="selected == 3 ? 'max-height: ' + $refs.container3.scrollHeight + 'px' : ''">
+                    <div class="p-6">
+                        <p>reCAPTCHA v2 is not going away! We will continue to fully support and improve security and usability for v2.</p>
+                        <p>reCAPTCHA v3 is intended for power users, site owners that want more data about their traffic, and for use cases in which it is not appropriate to show a challenge to the user.</p>
+                        <p>For example, a registration page might still use reCAPTCHA v2 for a higher-friction challenge, whereas more common actions like sign-in, searches, comments, or voting might use reCAPTCHA v3. To see more details, see the reCAPTCHA v3 developer guide.</p>
+                    </div>
+                </div>
+    
+            </li>
+
+            <li class="relative border border-black-200 my-4 rounded-xl bg-indigo-50 my-4">
+    
+                <button type="button" class="w-full px-8 py-6 text-left" @click="selected !== 4 ? selected = 4 : selected = null">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-xl">
+                            Should I use reCAPTCHA v2 or v3?
+                        </span>
+                        <span class="ico-plus"></span>
+                    </div>
+                </button>
+    
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container4" x-bind:style="selected == 4 ? 'max-height: ' + $refs.container4.scrollHeight + 'px' : ''">
+                    <div class="p-6">
+                        <p>reCAPTCHA v2 is not going away! We will continue to fully support and improve security and usability for v2.</p>
+                        <p>reCAPTCHA v3 is intended for power users, site owners that want more data about their traffic, and for use cases in which it is not appropriate to show a challenge to the user.</p>
+                        <p>For example, a registration page might still use reCAPTCHA v2 for a higher-friction challenge, whereas more common actions like sign-in, searches, comments, or voting might use reCAPTCHA v3. To see more details, see the reCAPTCHA v3 developer guide.</p>
+                    </div>
+                </div>
+    
+            </li>
+
+            <li class="relative border border-black-200 my-4 rounded-xl bg-indigo-50 my-4">
+    
+                <button type="button" class="w-full px-8 py-6 text-left" @click="selected !== 5 ? selected = 5 : selected = null">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-xl">
+                            Should I use reCAPTCHA v2 or v3?
+                        </span>
+                        <span class="ico-plus"></span>
+                    </div>
+                </button>
+    
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container5" x-bind:style="selected == 5 ? 'max-height: ' + $refs.container5.scrollHeight + 'px' : ''">
+                    <div class="p-6">
+                        <p>reCAPTCHA v2 is not going away! We will continue to fully support and improve security and usability for v2.</p>
+                        <p>reCAPTCHA v3 is intended for power users, site owners that want more data about their traffic, and for use cases in which it is not appropriate to show a challenge to the user.</p>
+                        <p>For example, a registration page might still use reCAPTCHA v2 for a higher-friction challenge, whereas more common actions like sign-in, searches, comments, or voting might use reCAPTCHA v3. To see more details, see the reCAPTCHA v3 developer guide.</p>
+                    </div>
+                </div>
+    
+            </li>
+
+            <li class="relative border border-black-200 my-4 rounded-xl bg-indigo-50 my-4">
+    
+                <button type="button" class="w-full px-8 py-6 text-left" @click="selected !== 6 ? selected = 6 : selected = null">
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-xl">
+                            Should I use reCAPTCHA v2 or v3?
+                        </span>
+                        <span class="ico-plus"></span>
+                    </div>
+                </button>
+    
+                <div class="relative overflow-hidden transition-all max-h-0 duration-700" style="" x-ref="container6" x-bind:style="selected == 6 ? 'max-height: ' + $refs.container6.scrollHeight + 'px' : ''">
+                    <div class="p-6">
+                        <p>reCAPTCHA v2 is not going away! We will continue to fully support and improve security and usability for v2.</p>
+                        <p>reCAPTCHA v3 is intended for power users, site owners that want more data about their traffic, and for use cases in which it is not appropriate to show a challenge to the user.</p>
+                        <p>For example, a registration page might still use reCAPTCHA v2 for a higher-friction challenge, whereas more common actions like sign-in, searches, comments, or voting might use reCAPTCHA v3. To see more details, see the reCAPTCHA v3 developer guide.</p>
+                    </div>
+                </div>
+    
+            </li>
+    
+        
+           
+    
+            </ul>
+        </div>
     </div>
 
        
